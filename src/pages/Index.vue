@@ -122,8 +122,8 @@
                 fetch("https://covid-193.p.rapidapi.com/countries", {
                     "method": "GET",
                     "headers": {
-                        "x-rapidapi-host": "covid-193.p.rapidapi.com",
-                        "x-rapidapi-key": "920bddb8e1msha1b5fda7205ccd8p16e7a7jsn15a05d576b9a"
+                        "x-rapidapi-host": "Enter your x-rapidapi Host",
+                        "x-rapidapi-key": "Enter your x-rapidapi Key"
                     }
                 })
                     .then(response => response.json()).then(data => {
@@ -134,8 +134,8 @@
                 fetch("https://covid-193.p.rapidapi.com/statistics?country=" + this.country, {
                     "method": "GET",
                     "headers": {
-                        "x-rapidapi-host": "covid-193.p.rapidapi.com",
-                        "x-rapidapi-key": "920bddb8e1msha1b5fda7205ccd8p16e7a7jsn15a05d576b9a"
+                        "x-rapidapi-host": "Enter your x-rapidapi Host",
+                        "x-rapidapi-key": "Enter your x-rapidapi Key"
                     }
                 }).then(response => response.json()).then(data => {
                     data = data.response[0];
