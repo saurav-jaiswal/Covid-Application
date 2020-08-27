@@ -1,6 +1,17 @@
-# Quasar App (quasar_app)
+# Covid App
 
-A Quasar Framework app
+Covid App - A Quasar Framework app
+
+# Demo
+
+https://covid-application.netlify.app/
+
+![](src/assets/113.png)
+
+![](src/assets/112.png)
+
+![](src/assets/111.png)
+
 
 ## Install the dependencies
 ```bash
